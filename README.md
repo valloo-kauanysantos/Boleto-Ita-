@@ -8,7 +8,7 @@ Esta integração conecta o fluxo de faturas de carga da Valloo à API BolePix/B
 Com isso, o cliente:
 - Gera o boleto a partir da própria fatura.
 - Visualiza QR Code Pix e linha digitável na tela.
-- Baixa o PDF do boleto imediatamente após o registro.
+- Baixa o PDF do boleto após ação manual.
 - Em uma fase seguinte, terá baixa automática da fatura via webhook e fallback, reduzindo o trabalho manual do financeiro.
 
 A arquitetura segue o Provider Pattern para provedores de pagamento, preparando o sistema para integrar novos bancos sem reescrever regras de negócio.
